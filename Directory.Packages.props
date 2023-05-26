@@ -2,4 +2,8 @@
   <PropertyGroup>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Minio" Version="5.0.0" />
+    <PackageVersion Include="Serilog.AspNetCore" Version="7.0.0" />
+  </ItemGroup>
 </Project>

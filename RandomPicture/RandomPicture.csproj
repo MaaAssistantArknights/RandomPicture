@@ -7,4 +7,9 @@
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Minio" />
+      <PackageReference Include="Serilog.AspNetCore" />
+    </ItemGroup>
+
 </Project>
